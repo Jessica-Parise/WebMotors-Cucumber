@@ -59,19 +59,3 @@ Funcionalidade: Testar página de usuário do Webmotors
     Quando eu preencho com dados inválidos
     E clico no botão entrar
     Entao o login não é realizado
-
-  @evidencia
-  Cenario: Validar alteração de gênero do usuário
-    Dado que eu faço login na página Webmotors
-    Quando navego até Editar Perfil
-    E altero Sexo Masculino para Feminino
-    E clico em Salvar Alterações
-    Então a página recarrega com o dado atualizado
-
-  @evidencia
-    Cenario: Validar alteração de telefone principal do usuário
-    Dado que eu faço login na página Webmotors
-    Quando navego até Editar Perfil
-    E altero o Telefone Principal
-    E clico em Salvar Alterações
-    Entao a página recarrega com o telefone atualizado
